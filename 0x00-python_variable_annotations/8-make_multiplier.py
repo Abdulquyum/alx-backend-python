@@ -10,4 +10,4 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     def inner_multiplier(value: float) -> float:
         ''' Multiply float by multiplier '''
         return value * multiplier
-    return inner_ multiplier
+    return inner_multiplier
